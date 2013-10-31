@@ -6,6 +6,7 @@ An auction application using Node.js
 4. Highest bid is reflected for all clients
 
 Required Node.js modules:
+
 1. Socket IO - Websocket framework
 2. Jade - Templating framework
 3. Express - Node.js wrapper framework
