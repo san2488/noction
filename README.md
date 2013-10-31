@@ -1,9 +1,9 @@
 An auction application using Node.js
 
-1. Add Item
-2. It is reflected across all connected clients
-3. All clients except host can bid
-4. Highest bid is reflected for all clients
+* Add Item
+* It is reflected across all connected clients
+* All clients except host can bid
+* Highest bid is reflected for all clients
 
 Required Node.js modules:
 
