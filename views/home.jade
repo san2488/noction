@@ -1,0 +1,21 @@
+doctype 5
+html
+   head
+      title Noction - An Auction application using Node.js
+      script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+      script(src="/socket.io/socket.io.js")
+      script(src="script.js")
+   body
+      div.container
+         header
+            h1 Noction
+         div#addItemInfo
+            input(type='text')#itemName
+            button#addItem Add Item
+         div#biddingFor Bidding For:
+            span#itemInfo
+         span#highestBid Highest Bid:
+            span#highestBidAmount
+         div#bidControls
+            input(type='text')#bidAmount
+            button#submit Bid
